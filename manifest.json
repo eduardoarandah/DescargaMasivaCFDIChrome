@@ -1,6 +1,6 @@
 {
   "name": "Descargador XML",
-  "description": "Descarga XML y facturas del SAT México. Visita www.ContadorModerno.com",
+  "description": "Descarga masivamente los CFDI (XML y PDF) del SAT México",
   "version": "0.1",
   "minimum_chrome_version": "16.0.884",
   "permissions": ["downloads", "activeTab"],
