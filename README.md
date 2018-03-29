@@ -28,6 +28,10 @@ Descarga masivamente los CFDI (XML y PDF) del SAT México
 
 ![icono](https://user-images.githubusercontent.com/4065733/38109726-5899f7de-3356-11e8-8fed-04dfda6c5c77.png)
 
+# Para analizar los CFDI
+
+Puedes usar la herramienta [Analizador CFDI](https://github.com/eduardoarandah/AnalizadorCFDI)
+
 # Desarrollo
 
 Contáctame si necesitas ayuda: 
