@@ -2,14 +2,20 @@ var allLinks = [];
 function descargarxml() {  
   document.getElementById('status').textContent = "Descargando XML...";    
   //los xml están en el array en posición 0
-  for (var i=0; i < allLinks[0].length; i++)
-    chrome.downloads.download({url: allLinks[0][i]},function(id){});
+  for (var i=0; i < allLinks[0].length; i++){
+    var liga = allLinks[0][i];
+    var name = allLinks[2][i]+".xml";
+    chrome.downloads.download({url: liga,filename:name},function(id){});
+  }
 }
 function descargarpdf() {  
   document.getElementById('status').textContent = "Descargando PDF...";    
   //los xml están en el array en posición 1
-  for (var i=0; i < allLinks[1].length; i++)
-    chrome.downloads.download({url: allLinks[1][i]},function(id){});
+  for (var i=0; i < allLinks[1].length; i++){
+    var liga = allLinks[1][i];
+    var name = allLinks[2][i]+".pdf";
+    chrome.downloads.download({url: liga,filename:name},function(id){});
+  }
 }
 
 //listener que recibe los elaces de send_links.js
