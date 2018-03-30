@@ -26,7 +26,7 @@ window.onload = function() {
 document.getElementById('descargarxml').onclick = descargarxml;
 document.getElementById('descargarpdf').onclick = descargarpdf;
 document.getElementById('analizar').onclick = function(){chrome.tabs.create({url: 'https://analizador-cfdi.netlify.com/'});}
-document.getElementById('enlace').onclick = function(){chrome.tabs.create({url: 'https://github.com/eduardoarandah/AnalizadorCFDI'});}
+document.getElementById('enlace').onclick = function(){chrome.tabs.create({url: 'https://github.com/eduardoarandah'});}
 
 //esta función agrega un JS a la tab activa para enviar los enlaces al listener
 chrome.windows.getCurrent(function (currentWindow) {
