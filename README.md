@@ -1,4 +1,4 @@
-# Descarga Masiva CFDI
+# Descarga Masiva CFDI para Google Chrome
 
 Descarga masivamente los CFDI (XML y PDF) del SAT México
 
@@ -6,7 +6,7 @@ Descarga masivamente los CFDI (XML y PDF) del SAT México
 
 # Cómo Instalar
 
-### 1) Descarga la extensión en [este enlace](https://github.com/eduardoarandah/DescargaMasivaCFDI/archive/master.zip)
+### 1) Descarga la extensión en [este enlace](https://github.com/eduardoarandah/DescargaMasivaCFDIChrome/archive/master.zip)
 
 ### 2) Descomprime la carpeta en donde gustes
 ![descomprimir](https://user-images.githubusercontent.com/4065733/38109729-58fbedd6-3356-11e8-845f-3e89237d15fd.png)
