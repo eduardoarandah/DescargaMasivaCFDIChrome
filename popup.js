@@ -56,6 +56,11 @@ window.onload = function() {
             url: 'https://eduardoarandah.github.io/'
         });
     }
+    document.getElementById('manual').onclick = function() {
+        chrome.tabs.create({
+            url: 'https://github.com/eduardoarandah/DescargaMasivaCFDIChrome'
+        });
+    }
 
     //esta función inyecta un JS a la tab activa para enviar los enlaces al listener
     chrome.windows.getCurrent(function(currentWindow) {

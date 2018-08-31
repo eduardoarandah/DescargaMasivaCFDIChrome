@@ -1,46 +1,60 @@
 # Descarga Masiva CFDI para Google Chrome
 
-Descarga masivamente los CFDI (XML y PDF) del SAT México
+Descarga masivamente los CFDI (XML y PDF) del [SAT México](https://sat.gob.mx/) 
 
-![descargarxml](https://user-images.githubusercontent.com/4065733/38107780-1d87b470-3350-11e8-9faf-ef1413bf79a9.png)
+![portada](https://user-images.githubusercontent.com/4065733/44919085-36755880-ad02-11e8-97a0-c6620ab20bf8.png)
 
-# Cómo Instalar
+# Instalación
 
-### 1) Descarga la extensión en [este enlace](https://github.com/eduardoarandah/DescargaMasivaCFDIChrome/archive/master.zip)
+### Instala la extensión **gratis** desde [la chrome web store](https://chrome.google.com/webstore/category/extensions?hl=es-419) 
 
-### 2) Descomprime la carpeta en donde gustes
-![descomprimir](https://user-images.githubusercontent.com/4065733/38109729-58fbedd6-3356-11e8-845f-3e89237d15fd.png)
+# Cómo Funciona
 
-### 3) En Google Chrome haga click en menu->más herramientas->extensiones
-![activar1](https://user-images.githubusercontent.com/4065733/38109727-58ba8d14-3356-11e8-853a-57fe8695ccc8.png)
-
-### 4) Habilite "Modo desarrollador" y "Cargar Descomprimida"
-![activar2](https://user-images.githubusercontent.com/4065733/38109728-58daaa22-3356-11e8-99d9-d74bed917d47.png)
-
-### 5) Deberá aparecer un icono en el menú
-![instalada](https://user-images.githubusercontent.com/4065733/38109730-59472efe-3356-11e8-87f6-ad41ab932848.png)
-
-# Cómo usar
-
-### 1) Visita el sitio del SAT [https://portalcfdi.facturaelectronica.sat.gob.mx](https://portalcfdi.facturaelectronica.sat.gob.mx)
-### 2) Ve a **Consultar Facturas Recibidas**
-### 3) Haz click en el icono que aparece en su navegador y listo
+### 1) Click en el icono
 
 ![icono](https://user-images.githubusercontent.com/4065733/38109726-5899f7de-3356-11e8-8fed-04dfda6c5c77.png)
 
-# Para analizar los CFDI
+### 2) Ir al SAT
 
-Puedes usar la herramienta [Analizador CFDI](https://github.com/eduardoarandah/AnalizadorCFDI)
+![manual1](https://user-images.githubusercontent.com/4065733/44919090-3a08df80-ad02-11e8-9f19-8af0c53f569b.png)
 
-# Desarrollo
+### 3) Puedes descargar emitidas o recibidas
 
-Contáctame si necesitas ayuda: 
+![manual2](https://user-images.githubusercontent.com/4065733/44919091-3aa17600-ad02-11e8-8727-13d0fc40784a.png)
 
-eduardoarandah@gmail.com
+### 4) Selecciona el periodo
 
-**Si deseas contribuir al desarrollo**
+![manual3](https://user-images.githubusercontent.com/4065733/44919092-3aa17600-ad02-11e8-8331-4b9706f96021.png)
 
-Puedes hacerlo via paypal en el siguiente enlace
+### 5) Click en el icono
+
+![manual4](https://user-images.githubusercontent.com/4065733/44919093-3b3a0c80-ad02-11e8-8f3c-561765b571d3.png)
+
+### 6) (OPCIONALMENTE) Puedes analizar las facturas en mi analizador
+
+[https://github.com/eduardoarandah/AnalizadorCFDI](https://github.com/eduardoarandah/AnalizadorCFDI)
+
+![manual5](https://user-images.githubusercontent.com/4065733/44919094-3b3a0c80-ad02-11e8-9b58-179629287198.png)
+
+![manual6](https://user-images.githubusercontent.com/4065733/44919095-3bd2a300-ad02-11e8-9003-30cadc4edf71.png)
+
+
+
+
+# Programación de sistemas
+
+Para proyectos de programación escribe a: eduardoarandah@gmail.com
+
+# Si deseas contribuir
+
+**He invertido mi tiempo realizado este proyecto con la intención de ayudar a todos.** 
+
+**Si te ha hecho la vida más fácil, puedes contribuir con una donación**
+
+Ve a esta página y haz click en "donar" 
+
 [https://eduardoarandah.github.io/](https://eduardoarandah.github.io/)
 
-![donar](https://user-images.githubusercontent.com/4065733/38109725-587af320-3356-11e8-941a-7215489a9286.png)
+![Eduardo Aranda Hernández](https://user-images.githubusercontent.com/4065733/38109725-587af320-3356-11e8-941a-7215489a9286.png)
+
+*Ing. Eduardo Aranda Hernández*
