@@ -1,0 +1,11 @@
+html{
+	min-width: 	250px;
+}
+body{
+/*padding: 15px;*/
+
+/*https://www.cssmatic.com/box-shadow*/
+-webkit-box-shadow: inset 0px 10px 37px 0px rgba(0,207,176,0.21);
+-moz-box-shadow: inset 0px 10px 37px 0px rgba(0,207,176,0.21);
+box-shadow: inset 0px 10px 37px 0px rgba(0,207,176,0.21);
+}
