@@ -73,8 +73,7 @@ window.onload = function() {
             var estamos_en_sat = url.startsWith("https://portalcfdi.facturaelectronica.sat.gob.mx");
             if (estamos_en_sat) {
                 chrome.tabs.executeScript(activeTabs[0].id, {
-                    file: 'inject.js',
-                    allFrames: true
+                    file: 'inject.js'
                 });
             }
         });
