@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>Descarga Masiva SAT</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Descarga Masiva SAT</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-	<script src='popup.js'></script>
-	<link rel=stylesheet href="style.css">
-</head>
-<body>
-	<div class="container text-center">
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h4 class="py-2">Descarga Masiva SAT</h4>
 
-		<h4 class="py-2">Descarga Masiva SAT</h4>
-
-		<div class="py-2">			
-			<button class="btn btn-info btn-sm" id='iralsat'>
-				Ir al SAT
-			</button>
-		</div>
-		<div class="py-2">	
-			<button class="btn btn-primary btn-sm" id='descargarxml'>
-				<span class="badge badge-light" id="cuenta-xml"></span>
-				Descargar XML		
-			</button>		
-		</div>
-		<div class="py-2">
-			<button class="btn btn-primary btn-sm" id='descargarpdf'>
-				<span class="badge badge-light" id="cuenta-pdf"></span>
-				Descargar PDF
-			</button>	
-		</div>
-		<div class="py-2">
-			<button class="btn btn-success btn-sm" id='analizar'>
-				Analizar XMLs
-			</button>
-		</div>
-		<div class="py-2">
-			<div id='status'></div>
-		</div>
-		<div class="py-2">
-			<button class="btn btn-default btn-sm" id="manual">Manual de uso</button>
-		</div>
-		<div class="py-2">
-			Desarrollado por: <br><a href="#" id='enlace'>Eduardo Aranda</a>
-		</div>
-
-	</div>
-</body>
+      <div class="py-2">
+        <button class="btn btn-info btn-sm" id="iralsat">Ir al SAT</button>
+      </div>
+      <div class="py-2">
+        <button class="btn btn-primary btn-sm" id="descargarxml">
+          <span class="badge badge-light" id="cuenta-xml"></span>
+          Descargar XML
+        </button>
+      </div>
+      <div class="py-2">
+        <button class="btn btn-primary btn-sm" id="descargarpdf">
+          <span class="badge badge-light" id="cuenta-pdf"></span>
+          Descargar PDF
+        </button>
+      </div>
+      <div class="py-2">
+        <button class="btn btn-success btn-sm" id="analizar">
+          Analizar XMLs
+        </button>
+      </div>
+      <div class="py-2">
+        <div id="status"></div>
+      </div>
+      <div class="py-2">
+        <button class="btn btn-default btn-sm" id="manual">
+          Manual de uso
+        </button>
+      </div>
+      <div class="py-2">
+        Desarrollado por: <br /><a href="#" id="enlace">Eduardo Aranda</a>
+      </div>
+    </div>
+  </body>
 </html>
