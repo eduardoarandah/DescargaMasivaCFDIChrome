@@ -68,7 +68,7 @@ window.onload = function() {
     //enlaces
     document.getElementById("analizar").onclick = function() {
         chrome.tabs.create({
-            url: "https://analizador-cfdi.netlify.com/",
+            url: "https://analizador-cfdi.netlify.app/",
         });
     };
     document.getElementById("iralsat").onclick = function() {
